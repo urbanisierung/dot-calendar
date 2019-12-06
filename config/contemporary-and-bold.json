@@ -1,0 +1,40 @@
+{
+  "title": "contemporary-and-bold",
+  "year": 2020,
+  "language": "DE",
+  "weekendColor": "#4E4E50",
+  "general": {
+    "width": 4961,
+    "height": 3508,
+    "textDistance": 100,
+    "widthBuffer": 100,
+    "bgColor": "#1A1A1D",
+    "textFont": "Helvetica",
+    "textColor": "#FFFFFF"
+  },
+  "dots": {
+    "distanceBetweenCirclesX": 5,
+    "distanceBetweenCirclesY": 5,
+    "columns": 3,
+    "dotStrikeColor": "#950740",
+    "dotLineWidth": 10
+  },
+  "flagTypes": [
+    {
+      "type": "school-holiday",
+      "color": "#6F2232"
+    },
+    {
+      "type": "bank-holiday",
+      "color": "#C3073F"
+    },
+    {
+      "type": "vacation",
+      "color": "#AFD275"
+    },
+    {
+      "type": "birthday",
+      "color": "#4056A1"
+    }
+  ]
+}

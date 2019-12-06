@@ -1,0 +1,39 @@
+{
+  "title": "Holidays",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 4,
+      "day": 6
+    },
+    {
+      "month": 4,
+      "day": 7
+    },
+    {
+      "month": 4,
+      "day": 8
+    },
+    {
+      "month": 4,
+      "day": 9
+    },
+    {
+      "month": 4,
+      "day": 14
+    },
+    {
+      "month": 4,
+      "day": 15
+    },
+    {
+      "month": 4,
+      "day": 16
+    },
+    {
+      "month": 4,
+      "day": 17
+    }
+  ]
+}

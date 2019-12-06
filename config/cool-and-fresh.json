@@ -1,0 +1,40 @@
+{
+  "title": "cool-and-fresh",
+  "year": 2020,
+  "language": "DE",
+  "weekendColor": "#8EE4AF",
+  "general": {
+    "width": 4961,
+    "height": 3508,
+    "textDistance": 100,
+    "widthBuffer": 100,
+    "bgColor": "#05386B",
+    "textFont": "Helvetica",
+    "textColor": "#EDF5E1"
+  },
+  "dots": {
+    "distanceBetweenCirclesX": 5,
+    "distanceBetweenCirclesY": 5,
+    "columns": 3,
+    "dotStrikeColor": "#379683",
+    "dotLineWidth": 10
+  },
+  "flagTypes": [
+    {
+      "type": "school-holiday",
+      "color": "#5CDB95"
+    },
+    {
+      "type": "bank-holiday",
+      "color": "#379683"
+    },
+    {
+      "type": "vacation",
+      "color": "#AFD275"
+    },
+    {
+      "type": "birthday",
+      "color": "#4056A1"
+    }
+  ]
+}

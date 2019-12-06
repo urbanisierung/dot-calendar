@@ -1,0 +1,40 @@
+{
+  "title": "artsy-and-creative",
+  "year": 2020,
+  "language": "DE",
+  "weekendColor": "#443737",
+  "general": {
+    "width": 4961,
+    "height": 3508,
+    "textDistance": 100,
+    "widthBuffer": 100,
+    "bgColor": "#EFE2BA",
+    "textFont": "Helvetica",
+    "textColor": "#272121"
+  },
+  "dots": {
+    "distanceBetweenCirclesX": 5,
+    "distanceBetweenCirclesY": 5,
+    "columns": 3,
+    "dotStrikeColor": "#D79922",
+    "dotLineWidth": 10
+  },
+  "flagTypes": [
+    {
+      "type": "school-holiday",
+      "color": "#C5CBE3"
+    },
+    {
+      "type": "bank-holiday",
+      "color": "#4056A1"
+    },
+    {
+      "type": "vacation",
+      "color": "#F13C20"
+    },
+    {
+      "type": "birthday",
+      "color": "#D79922"
+    }
+  ]
+}

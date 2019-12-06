@@ -10,7 +10,7 @@
 
 ![contemporary-and-bold](./examples/contemporary-and-bold.png)
 
-The project was born because I like to have a physical calendar in addition to my digital calendar, where I can see at a glance what is scheduled and when. By chance I came across the [dot calendar style](https://www.dot-on.de/en) and decided that I would like to have my own version of the it. To avoid having to create a new vector graphic every year, I solved it programmatically.
+The project was born because I like to have a physical calendar in addition to my digital calendar, where I can see at a glance what is scheduled and when. By chance I came across the [dot calendar style](https://www.dot-on.de/en) and decided that I would like to have my own version of it. To avoid having to create a new vector graphic every year, I solved it programmatically.
 
 ![artsy-and-creative](./examples/artsy-and-creative.png)
 
@@ -72,6 +72,8 @@ Example:
 ```
 
 In addition to the basic information, dots can be marked with colors. This is useful for school holidays, bank holidays, birthdays, etc. that are already known in advance. For this purpose `*.flag.json` files are configured. The payload is very simple - just use the examples if necessary.
+
+In summary: create your configuration file, follow the instructions in `index.ts` and run `npm run start` to get your own calendar. Have fun!
 
 Here is an example with 5 instead of 3 columns per month and adjusted distances for the year _2099_. This can be done by simply changing the `columns` and `distanceBetweenCirclesY` values.
 

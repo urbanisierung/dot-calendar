@@ -26,9 +26,9 @@ export interface DotCalendarProperties {
 
 export interface DotFlag {
   title: string;
+  showTitle?: boolean;
   column: number;
   type: string;
-  // color: string;
   range: DotDate[];
 }
 

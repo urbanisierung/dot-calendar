@@ -1,7 +1,7 @@
 import * as cnvs from "canvas";
 import * as fs from "fs";
 import { I18N } from "../i18n/I18N";
-import { DotCalendarProperties } from "./DotCalendarProperties.type";
+import { DotCalendarProperties, DotFlag } from "./DotCalendarProperties.type";
 import { Shape } from "../utils/shape";
 import { DateUtils } from "../utils/date.utils";
 
@@ -160,26 +160,55 @@ export class DotCalendar {
     y: number,
     radius: number
   ) {
+    const dotFlag = this.getDotFlag(month, day, column);
     this.ctx.beginPath();
     this.ctx.strokeStyle = this.properties.dots.dotStrikeColor;
     this.ctx.lineWidth = this.properties.dots.dotLineWidth;
-    this.ctx.fillStyle = this.getFillColor(month, day, column);
+    this.ctx.fillStyle = this.getFillColor(dotFlag);
     this.ctx.arc(x, y, radius, 0, Math.PI * 2, true);
     this.ctx.stroke();
     this.ctx.fill();
     this.ctx.closePath();
+    this.drawDotTitle(x, y, radius, dotFlag);
   }
 
-  private getFillColor(month: number, day: number, column: number) {
-    let color = this.properties.dots.dotFillColor;
+  private drawDotTitle(x: number, y: number, radius: number, dotFlag: DotFlag) {
+    if (dotFlag && dotFlag.showTitle) {
+      this.ctx.fillStyle = this.properties.general.textColor;
+      this.ctx.font = `${(radius / dotFlag.title.length) * 2.5}px ${
+        this.properties.general.textFont
+      }`;
+      this.ctx.textAlign = "center";
+      this.ctx.fillText(dotFlag.title, x, y);
+      this.ctx.textAlign = "left";
+    }
+  }
+
+  private getDotFlag(month: number, day: number, column: number) {
     if (this.properties.flags) {
       const dotFlag = this.properties.flags.find(
         flag =>
           flag.column === column &&
           flag.range.find(r => r.month === month && r.day === day)
       );
-      color = dotFlag ? this.getColorOfType(dotFlag.type) : color;
+      return dotFlag;
     }
+    return undefined;
+  }
+
+  private getFillColor(dotFlag: DotFlag) {
+    const color = dotFlag
+      ? this.getColorOfType(dotFlag.type)
+      : this.properties.dots.dotFillColor;
+    // let color = this.properties.dots.dotFillColor;
+    // if (this.properties.flags) {
+    //   const dotFlag = this.properties.flags.find(
+    //     flag =>
+    //       flag.column === column &&
+    //       flag.range.find(r => r.month === month && r.day === day)
+    //   );
+    //   color = dotFlag ? this.getColorOfType(dotFlag.type) : color;
+    // }
     return color;
   }
 

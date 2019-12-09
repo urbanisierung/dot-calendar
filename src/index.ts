@@ -23,7 +23,7 @@ function renderFromConfig() {
     const config = configLoader.readConfigWithFlags(
       configFile,
       flagPath,
-      flagPathPrivate
+      // flagPathPrivate
     );
     const dotCalendar = new DotCalendar(config);
     dotCalendar.create().save(`/../../generated/${config.title}.png`);

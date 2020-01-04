@@ -174,12 +174,16 @@ export class DotCalendar {
 
   private drawDotTitle(x: number, y: number, radius: number, dotFlag: DotFlag) {
     if (dotFlag && dotFlag.showTitle) {
-      this.ctx.fillStyle = this.properties.general.textColor;
-      this.ctx.font = `${(radius / dotFlag.title.length) * 2.5}px ${
-        this.properties.general.textFont
-      }`;
+      this.ctx.fillStyle = this.properties.general.bgColor;
+      const fontSize =
+        dotFlag.title.length <= 3
+          ? radius * 0.7
+          : (radius / dotFlag.title.length) * 2.5;
+      this.ctx.font = `${fontSize}px ${this.properties.general.textFont}`;
       this.ctx.textAlign = "center";
-      this.ctx.fillText(dotFlag.title, x, y);
+      const titleX = x;
+      const titleY = dotFlag.title.length <= 3 ? y + fontSize / 3 : y;
+      this.ctx.fillText(dotFlag.title, titleX, titleY);
       this.ctx.textAlign = "left";
     }
   }

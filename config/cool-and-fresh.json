@@ -35,6 +35,14 @@
     {
       "type": "birthday",
       "color": "#4056A1"
+    },
+    {
+      "type": "recyclable",
+      "color": "#F13C20"
+    },
+    {
+      "type": "residual",
+      "color": "#4056A1"
     }
   ]
 }

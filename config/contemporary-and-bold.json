@@ -1,6 +1,6 @@
 {
   "title": "contemporary-and-bold",
-  "year": 2020,
+  "year": 2021,
   "language": "DE",
   "weekendColor": "#4E4E50",
   "general": {
@@ -35,6 +35,10 @@
     {
       "type": "birthday",
       "color": "#4056A1"
+    },
+    {
+      "type": "birthday2",
+      "color": "#6677b3"
     },
     {
       "type": "recyclable",

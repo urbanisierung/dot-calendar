@@ -1,0 +1,43 @@
+{
+  "title": "Pfingstferien",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 5,
+      "day": 14
+    },
+    {
+      "month": 5,
+      "day": 25
+    },
+    {
+      "month": 5,
+      "day": 26
+    },
+    {
+      "month": 5,
+      "day": 27
+    },
+    {
+      "month": 5,
+      "day": 28
+    },
+    {
+      "month": 5,
+      "day": 31
+    },
+    {
+      "month": 6,
+      "day": 1
+    },
+    {
+      "month": 6,
+      "day": 2
+    },
+    {
+      "month": 6,
+      "day": 4
+    }
+  ]
+}

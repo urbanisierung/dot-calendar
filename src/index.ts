@@ -13,16 +13,16 @@ function renderFromConfig() {
     "contemporary-and-bold.json",
     "cool-and-fresh.json",
     "artsy-and-creative.json",
-    "cool-and-fresh-customized.json"
+    "cool-and-fresh-customized.json",
   ];
-  const flagPath = path + "/" + "flags-2020";
+  const flagPath = path + "/" + "flags-2021";
   const flagPathPrivate = path + "/" + "private-flags";
 
-  configs.forEach(configFileName => {
+  configs.forEach((configFileName) => {
     const configFile = path + "/" + configFileName;
     const config = configLoader.readConfigWithFlags(
       configFile,
-      flagPath,
+      flagPath
       // flagPathPrivate
     );
     const dotCalendar = new DotCalendar(config);
@@ -33,24 +33,24 @@ function renderFromConfig() {
 function renderWithColors(colorScheme: string[]) {
   let random = Utils.random(0, colorScheme.length);
   const weekendColor = colorScheme[random];
-  colorScheme = colorScheme.filter(color => color !== colorScheme[random]);
+  colorScheme = colorScheme.filter((color) => color !== colorScheme[random]);
 
   random = Utils.random(0, colorScheme.length);
   const bgColor = colorScheme[random];
-  colorScheme = colorScheme.filter(color => color !== colorScheme[random]);
+  colorScheme = colorScheme.filter((color) => color !== colorScheme[random]);
 
   random = Utils.random(0, colorScheme.length);
   const textColor = colorScheme[random];
-  colorScheme = colorScheme.filter(color => color !== colorScheme[random]);
+  colorScheme = colorScheme.filter((color) => color !== colorScheme[random]);
 
   random = Utils.random(0, colorScheme.length);
   const dotStrikeColor = colorScheme[random];
-  colorScheme = colorScheme.filter(color => color !== colorScheme[random]);
+  colorScheme = colorScheme.filter((color) => color !== colorScheme[random]);
 
   const prop: DotCalendarProperties = {
     title: v4(),
-    year: 2020,
-    language: "EN",
+    year: 2021,
+    language: "DE",
     weekendColor,
     general: {
       width: 4961,
@@ -59,15 +59,15 @@ function renderWithColors(colorScheme: string[]) {
       widthBuffer: 100,
       bgColor,
       textFont: "Helvetica",
-      textColor
+      textColor,
     },
     dots: {
       distanceBetweenCirclesX: 5,
       distanceBetweenCirclesY: 5,
       columns: 3,
       dotStrikeColor,
-      dotLineWidth: 10
-    }
+      dotLineWidth: 10,
+    },
   };
   const dotCalendar = new DotCalendar(prop);
   dotCalendar.create().save(`/../../generated/random/${prop.title}.png`);
@@ -80,7 +80,7 @@ function generateRandomCalendars(iterations: number) {
     const random = Utils.random(0, colors.length);
     if (colors[random]) {
       renderWithColors(colors[random]);
-      colors = colors.filter(color => color !== colors[random]);
+      colors = colors.filter((color) => color !== colors[random]);
     }
   }
 }

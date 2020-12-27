@@ -20,7 +20,7 @@
     "canny-edge-detector": "^1.0.0",
     "canvas": "^2.6.1",
     "dotenv": "^8.2.0",
-    "image-js": "^0.21.9",
+    "image-js": "^0.31.0",
     "uuid": "^7.0.2"
   },
   "devDependencies": {

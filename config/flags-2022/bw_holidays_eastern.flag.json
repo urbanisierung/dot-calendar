@@ -1,0 +1,27 @@
+{
+  "title": "Osterferien",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 4,
+      "day": 14
+    },
+    {
+      "month": 4,
+      "day": 19
+    },
+    {
+      "month": 4,
+      "day": 20
+    },
+    {
+      "month": 4,
+      "day": 21
+    },
+    {
+      "month": 4,
+      "day": 22
+    }
+  ]
+}

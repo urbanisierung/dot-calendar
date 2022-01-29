@@ -15,15 +15,15 @@ function renderFromConfig() {
     "artsy-and-creative.json",
     "cool-and-fresh-customized.json",
   ];
-  const flagPath = path + "/" + "flags-2021";
+  const flagPath = path + "/" + "flags-2022";
   const flagPathPrivate = path + "/" + "private-flags";
 
   configs.forEach((configFileName) => {
     const configFile = path + "/" + configFileName;
     const config = configLoader.readConfigWithFlags(
       configFile,
-      flagPath
-      // flagPathPrivate
+      flagPath,
+      flagPathPrivate
     );
     const dotCalendar = new DotCalendar(config);
     dotCalendar.create().save(`/../../generated/${config.title}.png`);
@@ -49,7 +49,7 @@ function renderWithColors(colorScheme: string[]) {
 
   const prop: DotCalendarProperties = {
     title: v4(),
-    year: 2021,
+    year: 2022,
     language: "DE",
     weekendColor,
     general: {

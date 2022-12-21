@@ -1,0 +1,135 @@
+{
+  "title": "Sommerferien",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 7,
+      "day": 27
+    },
+    {
+      "month": 7,
+      "day": 28
+    },
+    {
+      "month": 7,
+      "day": 31
+    },
+    {
+      "month": 8,
+      "day": 1
+    },
+    {
+      "month": 8,
+      "day": 2
+    },
+    {
+      "month": 8,
+      "day": 3
+    },
+    {
+      "month": 8,
+      "day": 4
+    },
+    {
+      "month": 8,
+      "day": 7
+    },
+    {
+      "month": 8,
+      "day": 8
+    },
+    {
+      "month": 8,
+      "day": 9
+    },
+    {
+      "month": 8,
+      "day": 10
+    },
+    {
+      "month": 8,
+      "day": 11
+    },
+    {
+      "month": 8,
+      "day": 14
+    },
+    {
+      "month": 8,
+      "day": 15
+    },
+    {
+      "month": 8,
+      "day": 16
+    },
+    {
+      "month": 8,
+      "day": 17
+    },
+    {
+      "month": 8,
+      "day": 18
+    },
+    {
+      "month": 8,
+      "day": 21
+    },
+    {
+      "month": 8,
+      "day": 22
+    },
+    {
+      "month": 8,
+      "day": 23
+    },
+    {
+      "month": 8,
+      "day": 24
+    },
+    {
+      "month": 8,
+      "day": 25
+    },
+    {
+      "month": 8,
+      "day": 28
+    },
+    {
+      "month": 8,
+      "day": 29
+    },
+    {
+      "month": 8,
+      "day": 30
+    },
+    {
+      "month": 8,
+      "day": 31
+    },
+    {
+      "month": 9,
+      "day": 1
+    },
+    {
+      "month": 9,
+      "day": 4
+    },
+    {
+      "month": 9,
+      "day": 5
+    },
+    {
+      "month": 9,
+      "day": 6
+    },
+    {
+      "month": 9,
+      "day": 7
+    },
+    {
+      "month": 9,
+      "day": 8
+    }
+  ]
+}

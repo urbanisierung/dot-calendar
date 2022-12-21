@@ -49,7 +49,7 @@ function renderWithColors(colorScheme: string[]) {
 
   const prop: DotCalendarProperties = {
     title: v4(),
-    year: 2022,
+    year: 2023,
     language: "DE",
     weekendColor,
     general: {

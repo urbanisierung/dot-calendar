@@ -1,0 +1,11 @@
+{
+  "title": "Christi Himmelfahrt",
+  "column": 2,
+  "type": "bank-holiday",
+  "range": [
+    {
+      "month": 5,
+      "day": 18
+    }
+  ]
+}

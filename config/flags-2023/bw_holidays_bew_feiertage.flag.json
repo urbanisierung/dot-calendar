@@ -1,0 +1,27 @@
+{
+  "title": "Bewegliche Ferientage",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 2,
+      "day": 20
+    },
+    {
+      "month": 2,
+      "day": 21
+    },
+    {
+      "month": 2,
+      "day": 22
+    },
+    {
+      "month": 2,
+      "day": 23
+    },
+    {
+      "month": 2,
+      "day": 24
+    }
+  ]
+}

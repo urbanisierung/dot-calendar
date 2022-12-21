@@ -1,0 +1,19 @@
+{
+  "title": "Weihnachtsferien",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 12,
+      "day": 27
+    },
+    {
+      "month": 12,
+      "day": 28
+    },
+    {
+      "month": 12,
+      "day": 29
+    }
+  ]
+}

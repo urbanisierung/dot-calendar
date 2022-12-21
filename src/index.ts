@@ -15,7 +15,7 @@ function renderFromConfig() {
     "artsy-and-creative.json",
     "cool-and-fresh-customized.json",
   ];
-  const flagPath = path + "/" + "flags-2022";
+  const flagPath = path + "/" + "flags-2023";
   const flagPathPrivate = path + "/" + "private-flags";
 
   configs.forEach((configFileName) => {
@@ -49,7 +49,7 @@ function renderWithColors(colorScheme: string[]) {
 
   const prop: DotCalendarProperties = {
     title: v4(),
-    year: 2022,
+    year: 2023,
     language: "DE",
     weekendColor,
     general: {

@@ -15,7 +15,7 @@ function renderFromConfig() {
     "artsy-and-creative.json",
     "cool-and-fresh-customized.json",
   ];
-  const flagPath = path + "/" + "flags-2023";
+  const flagPath = path + "/" + "flags-2024";
   const flagPathPrivate = path + "/" + "private-flags";
 
   configs.forEach((configFileName) => {

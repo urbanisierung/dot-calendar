@@ -14,6 +14,8 @@ function renderFromConfig() {
     "cool-and-fresh.json",
     "artsy-and-creative.json",
     "cool-and-fresh-customized.json",
+    "kawaii.json",
+    "gray-champion.json",
   ];
   const flagPath = path + "/" + "flags-2024";
   const flagPathPrivate = path + "/" + "private-flags";

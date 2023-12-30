@@ -1,0 +1,52 @@
+{
+  "title": "gray-champion",
+  "year": 2024,
+  "language": "DE",
+  "weekendColor": "#000000",
+  "general": {
+    "width": 4961,
+    "height": 3508,
+    "textDistance": 100,
+    "widthBuffer": 100,
+    "bgColor": "#888888",
+    "textFont": "Helvetica",
+    "textColor": "#000000"
+  },
+  "dots": {
+    "distanceBetweenCirclesX": 5,
+    "distanceBetweenCirclesY": 5,
+    "columns": 3,
+    "dotStrikeColor": "#f1c232",
+    "dotLineWidth": 10
+  },
+  "flagTypes": [
+    {
+      "type": "school-holiday",
+      "color": "#f1c232"
+    },
+    {
+      "type": "bank-holiday",
+      "color": "#c0c6c9"
+    },
+    {
+      "type": "vacation",
+      "color": "#F13C20"
+    },
+    {
+      "type": "birthday",
+      "color": "#163c5e"
+    },
+    {
+      "type": "birthday2",
+      "color": "#163c5e"
+    },
+    {
+      "type": "recyclable",
+      "color": "#F13C20"
+    },
+    {
+      "type": "residual",
+      "color": "#4056A1"
+    }
+  ]
+}

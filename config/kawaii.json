@@ -1,0 +1,52 @@
+{
+  "title": "kawaii",
+  "year": 2024,
+  "language": "DE",
+  "weekendColor": "#ff00a9",
+  "general": {
+    "width": 4961,
+    "height": 3508,
+    "textDistance": 100,
+    "widthBuffer": 100,
+    "bgColor": "#ffe2f1",
+    "textFont": "Helvetica",
+    "textColor": "#ff00a9"
+  },
+  "dots": {
+    "distanceBetweenCirclesX": 5,
+    "distanceBetweenCirclesY": 5,
+    "columns": 3,
+    "dotStrikeColor": "#ffaad7",
+    "dotLineWidth": 10
+  },
+  "flagTypes": [
+    {
+      "type": "school-holiday",
+      "color": "#ffffd8"
+    },
+    {
+      "type": "bank-holiday",
+      "color": "#ffaad7"
+    },
+    {
+      "type": "vacation",
+      "color": "#F13C20"
+    },
+    {
+      "type": "birthday",
+      "color": "#ff0065"
+    },
+    {
+      "type": "birthday2",
+      "color": "#ff0065"
+    },
+    {
+      "type": "recyclable",
+      "color": "#F13C20"
+    },
+    {
+      "type": "residual",
+      "color": "#4056A1"
+    }
+  ]
+}

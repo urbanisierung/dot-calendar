@@ -1,0 +1,11 @@
+{
+  "title": "Allerheiligen",
+  "column": 2,
+  "type": "bank-holiday",
+  "range": [
+    {
+      "month": 11,
+      "day": 1
+    }
+  ]
+}

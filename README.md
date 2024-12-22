@@ -38,6 +38,13 @@ To create calendars from the sample configurations simply run the following comm
 npm run start
 ```
 
+## Config Creator
+
+```bash
+# adjust ./src/utils/config-creator.ts
+npm run generate:config
+```
+
 ## Customizations
 
 It is easy to create your own versions of the calendar. All you have to do is make some configurations.
@@ -98,4 +105,3 @@ If you want to contact me you can reach me at [adam.urban@gmail.com](mailto:adam
 ## License
 
 This project uses the following license: [MIT](./MIT.md).
-

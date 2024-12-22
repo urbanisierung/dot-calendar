@@ -1,0 +1,11 @@
+{
+  "title": "Tag der Arbeit",
+  "column": 2,
+  "type": "bank-holiday",
+  "range": [
+    {
+      "month": 5,
+      "day": 1
+    }
+  ]
+}

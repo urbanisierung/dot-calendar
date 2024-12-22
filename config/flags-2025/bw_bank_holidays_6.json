@@ -1,0 +1,11 @@
+{
+  "title": "Tag der Deutschen Einheit",
+  "column": 2,
+  "type": "bank-holiday",
+  "range": [
+    {
+      "month": 10,
+      "day": 3
+    }
+  ]
+}

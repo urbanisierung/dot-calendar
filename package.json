@@ -11,6 +11,7 @@
     "start": "ts-node ./src/index.ts",
     "build": "tsc --p tsconfig.json",
     "dist": "node dist/index.js",
+    "generate:config": "ts-node ./src/utils/config-creator.ts",
     "test": "jest"
   },
   "author": "",

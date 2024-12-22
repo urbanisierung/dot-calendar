@@ -1,0 +1,23 @@
+{
+  "title": "Herbstferien",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 10,
+      "day": 27
+    },
+    {
+      "month": 10,
+      "day": 30
+    },
+    {
+      "month": 10,
+      "day": 28
+    },
+    {
+      "month": 10,
+      "day": 29
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Karfreitag",
+  "column": 2,
+  "type": "bank-holiday",
+  "range": [
+    {
+      "month": 4,
+      "day": 18
+    }
+  ]
+}

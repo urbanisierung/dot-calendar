@@ -1,0 +1,11 @@
+{
+  "title": "2. Weihnachtsfeiertag",
+  "column": 2,
+  "type": "bank-holiday",
+  "range": [
+    {
+      "month": 12,
+      "day": 26
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Heilige 3 Könige",
+  "column": 2,
+  "type": "bank-holiday",
+  "range": [
+    {
+      "month": 1,
+      "day": 6
+    }
+  ]
+}

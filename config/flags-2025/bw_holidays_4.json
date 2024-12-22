@@ -1,0 +1,67 @@
+{
+  "title": "Osterferien",
+  "column": 2,
+  "type": "school-holiday",
+  "range": [
+    {
+      "month": 4,
+      "day": 12
+    },
+    {
+      "month": 4,
+      "day": 26
+    },
+    {
+      "month": 4,
+      "day": 13
+    },
+    {
+      "month": 4,
+      "day": 14
+    },
+    {
+      "month": 4,
+      "day": 15
+    },
+    {
+      "month": 4,
+      "day": 16
+    },
+    {
+      "month": 4,
+      "day": 17
+    },
+    {
+      "month": 4,
+      "day": 18
+    },
+    {
+      "month": 4,
+      "day": 19
+    },
+    {
+      "month": 4,
+      "day": 20
+    },
+    {
+      "month": 4,
+      "day": 21
+    },
+    {
+      "month": 4,
+      "day": 22
+    },
+    {
+      "month": 4,
+      "day": 23
+    },
+    {
+      "month": 4,
+      "day": 24
+    },
+    {
+      "month": 4,
+      "day": 25
+    }
+  ]
+}

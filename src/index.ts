@@ -17,7 +17,7 @@ function renderFromConfig() {
     "kawaii.json",
     "gray-champion.json",
   ];
-  const flagPath = path + "/" + "flags-2024";
+  const flagPath = path + "/" + "flags-2025";
   const flagPathPrivate = path + "/" + "private-flags";
 
   configs.forEach((configFileName) => {
@@ -51,7 +51,7 @@ function renderWithColors(colorScheme: string[]) {
 
   const prop: DotCalendarProperties = {
     title: v4(),
-    year: 2023,
+    year: 2025,
     language: "DE",
     weekendColor,
     general: {
